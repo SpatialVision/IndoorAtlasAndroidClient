@@ -33,8 +33,8 @@
 
         <service android:name=".IndoorAtlasService"></service>
 
-        <meta-data android:name="com.indooratlas.android.sdk.API_KEY" android:value="746aa8fa-4534-4eeb-992b-23672b53643a"/>
-        <meta-data android:name="com.indooratlas.android.sdk.API_SECRET" android:value="ZL4wdBHNlitp90M%w57S)%DyrqPlfKOJBr0nXAZ2O(h01oUV3qyYvg4Sq5bCFyZ5Qp7bLlzDRBAA6ZZvmaxGZsbdUyHf3UE8C3hIG9nffbbALkRdWUw8b7uGovjEomDi"/>
+        <meta-data android:name="com.indooratlas.android.sdk.API_KEY" android:value="2b5e8528-70c9-4c95-8e64-226e7c919cfd"/>
+        <meta-data android:name="com.indooratlas.android.sdk.API_SECRET" android:value="dyfD7tUArh2adsuSV)2Ri99v6bt1E%KwP1zOkYy4)84wZO9NjvV6bMKbqnhGg63dAhlJjVk(fPM4QjQv%ukHK%fnAXvFCuyDKgEeH7oXtIyAEuuM%7GAKusyC%6XUoW("/>
     </application>
 
 </manifest>

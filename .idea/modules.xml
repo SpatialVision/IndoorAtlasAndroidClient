@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Indoor.iml" filepath="$PROJECT_DIR$/Indoor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IndoorAtlasAndroidClient.iml" filepath="$PROJECT_DIR$/IndoorAtlasAndroidClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/indooratlas-android-sdk-2.0.2-beta/indooratlas-android-sdk-2.0.2-beta.iml" filepath="$PROJECT_DIR$/indooratlas-android-sdk-2.0.2-beta/indooratlas-android-sdk-2.0.2-beta.iml" />
     </modules>

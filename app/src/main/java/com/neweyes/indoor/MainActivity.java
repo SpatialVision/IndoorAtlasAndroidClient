@@ -49,6 +49,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView lblAltitude;
     private TextView lblLatitude;
     private TextView lblLongitude;
+    private TextView lblFloorLevel;
+    private TextView lblBearing;
+    private TextView lblRegion;
     private Button btnService;
 
     @Override
@@ -64,6 +67,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         lblAltitude = (TextView) findViewById(R.id.lblAltitude);
         lblLatitude = (TextView) findViewById(R.id.lblLatitude);
         lblLongitude = (TextView) findViewById(R.id.lblLongitude);
+
+        lblFloorLevel = (TextView) findViewById(R.id.lblFloorLevel);
+        lblBearing = (TextView) findViewById(R.id.lblBearing);
+        lblRegion = (TextView) findViewById(R.id.lblRegion);
+
         btnService = (Button) findViewById(R.id.btnService);
         btnService.setOnClickListener(this);
 
@@ -86,6 +94,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             lblLatitude.setText("Latitude: " + location.getLatitude());
             lblLongitude.setText("Longitude: " + location.getLongitude());
             lblAltitude.setText("Altitude: " + location.getAltitude());
+            lblFloorLevel.setText("Floor Level: " + location.getFloorLevel());
+            lblBearing.setText("Bearing: " + location.getBearing());
+            lblBearing.setText("Region: " + location.getRegion().getType());
 
             if (fistData) {
                 fistData = false;

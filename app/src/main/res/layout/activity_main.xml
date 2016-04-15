@@ -12,6 +12,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="ubuntu4.sv.domain"
         android:id="@+id/txtServerHost"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
@@ -23,6 +24,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="7778"
         android:inputType="number"
         android:ems="10"
         android:id="@+id/txtServerPort"
@@ -72,4 +74,33 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Floor Level: 0.0"
+        android:id="@+id/lblFloorLevel"
+        android:layout_below="@+id/lblAltitude"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bearing: 0.0"
+        android:id="@+id/lblBearing"
+        android:layout_below="@+id/lblFloorLevel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bearing: 0.0"
+        android:id="@+id/lblRegion"
+        android:layout_below="@+id/lblBearing"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
